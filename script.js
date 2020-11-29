@@ -4,6 +4,7 @@ $(document).ready(function() {
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
+    
   var availableBoards = {};
   var availableTasks = {};
 
